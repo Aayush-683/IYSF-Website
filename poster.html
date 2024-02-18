@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Call for Posters/Models</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="nav.js"></script>
+    <script src="https://kit.fontawesome.com/4d548a4e76.js" crossorigin="anonymous"></script>
+<style>
+     body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color:  #1a1919;
+        color: #333;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        text-align: center;
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        color: #333;
+        margin-top: 30px;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    .timeline {
+        margin-top: 30px;
+    }
+
+    .timeline h2 {
+        margin-top: 0;
+    }
+
+    .important-dates {
+        margin-top: 20px;
+    }
+
+    .important-dates table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    .important-dates th, .important-dates td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    .important-dates th {
+        background-color: #f2f2f2;
+        text-align: left;
+    }
+
+    .abstract-guidelines {
+        margin-top: 20px;
+    }
+
+    .abstract-guidelines p {
+        margin: 10px 0;
+    }
+
+   
+
+    .contact-info p {
+        margin: 10px 0;
+    }
+
+    .contact-info b {
+        color: #007bff;
+    }
+
+    /* Additional Styling */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+ 
+.navbar {
+  background-color: #1a1919;
+  font-family: "Arbutus Slab";
+}
+
+.navbar {
+  position: relative;
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.navbar:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #00054d;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar:hover {
+  border-bottom-color:  #00054d;
+}
+
+.navbar:hover:before {
+  transform: scaleX(1);
+}
+
+.logo-img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-img:hover {
+  transform: scale(1.1);
+  border: 2px solid #000;
+  animation: border-animation 2s infinite;
+}
+
+@keyframes border-animation {
+  0% {
+    border-color: #007bff;
+  }
+  25% {
+    border-color: #66adff;
+  }
+  50% {
+    border-color: #0047cc;
+  }
+  75% {
+    border-color: #070066;
+  }
+  100% {
+    border-color: #001a00;
+  }
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0; 
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+  padding-top: 12px;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 23px;
+  color:white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+  color:  #007bff;
+}
+
+.nav-link:hover:before {
+  width: 100%;
+  animation: underline 0.6s linear;
+}
+
+@keyframes underline {
+  0% {
+    left: 0;
+    width: 0;
+  }
+  25% {
+    left: 0;
+    width: 100%;
+  }
+  50% {
+    left: 100%;
+    width: 0;
+  }
+  75% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 0;
+    width: 100%;
+  }
+}
+
+
+
+@keyframes border-animation {
+  0% {
+    border-color: #001f4d;
+    box-shadow: 0 0 5px #002e4d;
+  }
+  50% {
+    border-color: #0047cc;
+    box-shadow: 0 0 5px #0047cc;
+  }
+  100% {
+    border-color: #00054d;
+    box-shadow: 0 0 5px  #00054d;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .nav-item {
+    padding-left: 10%;
+  }
+
+  .dropdown {
+    padding-left: 8%;
+  }
+
+  .dropdown-menu.dropdown-menu-center {
+    left: 30% !important;
+    right: 0 !important;
+    transform: translateX(0) !important;
+  }
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+
+
+</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm  p-3 ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo/logo.png" alt="IYSF Logo" class="logo-img" style="width:90px;"> 
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item ps-5">
+                  <a class="nav-link" href="home-page.html">Home</a>
+                </li>
+                <li class="nav-item ps-5">
+                  <a class="nav-link" href="past-event.html">Past Events</a>
+                </li>
+                <li class="nav-item ps-5">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item ps-5">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item ps-5">
+                    <a class="nav-link" href="poster.html">Poster</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        
+        
+    </nav>
+
+
+<div class="container">
+    <h1>Call for Posters/Models</h1>
+    
+    <div class="timeline">
+        <h2>Timeline</h2>
+        <div class="important-dates">
+            <table>
+                <tr>
+                    <th>Registration opens:</th>
+                    <td>25 January 2024</td>
+                </tr>
+                <tr>
+                    <th>Last date for Abstract Submission:</th>
+                    <td>15 February 2024</td>
+                </tr>
+                <tr>
+                    <th>Final poster / Model display:</th>
+                    <td>8th & 9th March 2024</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="abstract-guidelines">
+        <h2>Poster/Model Details</h2>
+        <p>Posters or demonstrative models are invited from students, faculty and others, in line with the proposed themes for IYSF:<b> Environmental Conservation</b>, <b>Social Inclusion</b>,<b>Good Governance</b>.</p>
+    </div>
+
+    <div class="abstract-guidelines">
+        <h2>Guidelines for Poster/Model Abstract Submission</h2>
+        <ul>
+            <li>A concise abstract (1000 words) to be submitted latest by 15th February, 2024.</li>
+            <li>Abstract to be submitted in MS Word file.</li>
+            <li>Font: Times New Roman; Font size 12; Line spacing 1.5.</li>
+            <li>The abstract should clearly state the importance, scope, key findings and novelty of the work undertaken or idea discussed.</li>
+            <li>Poster/Model to be prepared keeping in mind the theme of the conclave.</li>
+            <li>Final poster size should be 3ftx3ft.</li>
+            <li>The participants to bring the final poster, or the demonstrative model for display, on day 1 of the Conclave. The registration team will guide the participant for final display of the same.</li>
+            <li>The 3 best posters/models will be awarded ”Best Poster/Model Certificate” selected by the jury panel.</li>
+        </ul>
+    </div>
+
+    <div class="contact-info">
+        <h2>Authors are requested to mail the abstracts to-<b>info@exploreit.in</b></h2>
+
+    </div>
+</div>
+
+</body>
+</html>
